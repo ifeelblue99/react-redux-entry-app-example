@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+form {
+  padding: 0 0.2rem;
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+}
+input {
+  background-color: rgb(231, 231, 231);
+  border: none;
+  padding: 0.2rem 0.4rem;
+}
+.list {
+  text-align: center;
+  padding: 0.5rem;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+}
+.list-item {
+  height: 70px;
+  position: relative;
+  margin: 0.2rem 0;
+  border: 1px gray solid;
+}
+.del-btn {
+  position: absolute;
+  margin: 2px;
+  top: 0;
+  right: 0;
+}
+.message {
+  line-height: 1.2;
+  letter-spacing: 1.12px;
+  margin: 0.2rem;
+  text-align: start;
+  position: absolute;
+  max-height: 80%;
+  max-width: 80%;
+}
+.time {
+  font-size: 0.8rem;
+  color: rgb(61, 61, 61);
+  padding-right: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.95);
+}
