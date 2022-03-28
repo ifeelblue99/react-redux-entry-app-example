@@ -12,7 +12,7 @@ export default function Todo() {
     e.preventDefault();
     if (!formData.length || formData.length > 25) {
       setFormData('');
-      alert('Error: max 25 character');
+      alert('Error: Max 25, min 1 character.');
       return;
     }
 
