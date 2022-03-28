@@ -1,5 +1,5 @@
 import { getHourMinuteSecond } from '../lib/lib';
-let lastId = 0;
+let lastId = 1;
 
 export default function reducer(
   state = [
