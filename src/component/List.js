@@ -1,7 +1,7 @@
 import React from 'react';
 import store from '../redux/store';
 import Item from './ListItem';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 export default function List() {
   const items = useSelector((state) => state);
